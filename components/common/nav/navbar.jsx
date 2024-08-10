@@ -66,7 +66,7 @@ const Navbar = ({ children }) => {
 						onClick={() => setLogin((prev) => !prev)}
 					/>
 				) : (
-					<div className="flex justify-center items-center text-[18px] font-extrabold ml-6 border border-black rounded-full p-1 cursor-pointer min-w-9 min-h-9 text-black font-dm-sans">
+					<div className="flex justify-center items-center text-[18px] font-extrabold ml-6 border border-neutral-500 rounded-full p-1 cursor-pointer min-w-9 min-h-9 text-black font-dm-sans uppercase bg-blue-300">
 						{user?.username?.[0]}
 					</div>
 				)}
