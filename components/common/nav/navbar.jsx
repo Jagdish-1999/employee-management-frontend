@@ -21,6 +21,7 @@ const Navbar = ({ children }) => {
 	return (
 		<div className="h-full w-full flex flex-col">
 			<nav className="h-14 bg-neutral-300 flex items-center justify-between px-16">
+				<img src="/logo.png" className="rounded-full w-10 h-10"></img>
 				<div className="w-full"></div>
 				<ul className="flex gap-8">
 					<li>
